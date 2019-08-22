@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebBrowserCommands {
 	public static void main(String[] args) throws InterruptedException {
-		String driverExecutablePath = "D:\\eclipse-workspace\\AutomationTraining\\src\\test\\resources\\executables\\chromedriver.exe";
+		String driverExecutablePath = ".\\resources\\executables\\chromedriver.exe";
 		
 		System.setProperty("webdriver.chrome.driver", driverExecutablePath);
 		// Create a new instance of the FireFox driver
